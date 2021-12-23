@@ -5,6 +5,6 @@ node{
 	}
 	stage('build') {
 	def mvnHome = tool name: 'maven3', type: 'maven'
-	sh "${mvnHome}/mvn clean install"
+	sh "${mvnHome}/mvn -f /var/lib/jenkins/workspace/travel-app/webapp/pom.xml clean install"
 	}
 	}
