@@ -130,10 +130,10 @@ nav a:nth-child(5) {
 <!-- partial:index.partial.html -->
 <div class="back"></div>
 <nav>
-  <a href="about.html">About</a>
-  <a href="site.html">Site View</a>
-  <a href="package.html">Packages</a>
-  <a href="contact.html" >Contacts</a>
+  <a href="about.jsp">About</a>
+  <a href="site.jsp">Site View</a>
+  <a href="package.jsp">Packages</a>
+  <a href="contact.jsp" >Contacts</a>
 
 </nav>
 <h3 class="first-txt">
